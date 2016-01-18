@@ -27,7 +27,7 @@ import (
 	"sync"
 	"time"
 
-	"code.google.com/p/goauth2/oauth"
+	"github.com/unravelin/goauth2/oauth"
 )
 
 const (

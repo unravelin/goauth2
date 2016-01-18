@@ -12,7 +12,7 @@ import (
 	"appengine"
 	"appengine/memcache"
 
-	"code.google.com/p/goauth2/oauth"
+	"github.com/unravelin/goauth2/oauth"
 )
 
 // cache implements TokenCache using memcache to store AccessToken

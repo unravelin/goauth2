@@ -383,7 +383,7 @@ func (t *Transport) AuthenticateClient() error {
 
 // providerAuthHeaderWorks reports whether the OAuth2 server identified by the tokenURL
 // implements the OAuth2 spec correctly
-// See https://code.google.com/p/goauth2/issues/detail?id=31 for background.
+// See https://github.com/unravelin/goauth2/issues/detail?id=31 for background.
 // In summary:
 // - Reddit only accepts client secret in the Authorization header
 // - Dropbox accepts either it in URL param or Auth header, but not both.
